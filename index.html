@@ -26,9 +26,11 @@
         <input type="text" placeholder="Nome da cidade" />
         <button>Pesquisar</button>
       </div>
-      <a class="current_location" href="#">
-        <i class="fas fa-location-arrow"></i> Localização atual
-      </a>
+      <div class="text-center">
+        <a class="current_location" href="#">
+          <i class="fas fa-location-arrow"></i> Localização atual
+        </a>
+      </div>
 
       <div class="fade-container">
         <div class="location">
@@ -107,23 +109,22 @@
           </div>
         </div>
 
-        <i id="map-icon" class="fas fa-map-marked-alt"></i>
+        <div class="text-center">
+          <i id="map-icon" class="fas fa-map-marked-alt"></i>
+        </div>
         <div id="mapid"></div>
       </div>
-    </div>
 
-    <script
-      src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-      crossorigin=""
-    ></script>
+      <footer class="text-center">
+        <a class="signature" target="_blank" rel="noopener" href="https://github.com/LeoDev0/weather-web-app">Designed and Built with <span style="color:red;">❤️</span> By Leo Fernandes</a>
+      </footer>
+    </div>
+    
+
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
     <script src="https://kit.fontawesome.com/cfd8b43b94.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/pt-br.js"
-      integrity="sha256-aIToY7VLU5x+toAJcyINV0WEogFBCIVeeWhyUbCaYiQ="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/pt-br.js" integrity="sha256-aIToY7VLU5x+toAJcyINV0WEogFBCIVeeWhyUbCaYiQ=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
