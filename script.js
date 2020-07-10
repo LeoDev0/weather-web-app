@@ -129,7 +129,7 @@ async function fetchCityName() {
   let cityName = inputElem.value;
 
   const response = await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=50a7aa80fa492fa92e874d23ad061374&units=metric&lang=pt`
+    `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=571c0196acd06051ed685dd206d01f9f&units=metric&lang=pt`
   );
   const data = await response.json();
 
